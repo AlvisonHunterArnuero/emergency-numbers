@@ -1,0 +1,114 @@
+{% extends 'layout.html' %} {% block header %} {% block title %}My Github's
+Projects{% endblock %} {% endblock %} {% block content %}
+
+<div class="row>
+  <div id="projectFacts" class="sectionClass">
+    <div class="fullWidth eight columns">
+      <div class="projectFactsWrap">
+        <div
+          class="item wow fadeInUpBig animated animated"
+          data-number="13"
+          style="visibility: visible;"
+        >
+          <i class="fa fa-github" aria-hidden="true"></i>
+          <p id="number1" class="number">13</p>
+          <span></span>
+          <p class="small">Github Projects</p>
+        </div>
+        <div
+          class="item wow fadeInUpBig animated animated"
+          data-number="5655"
+          style="visibility: visible;"
+        >
+          <i class="fa fa-code" aria-hidden="true"></i>
+          <p id="number2" class="number">5655</p>
+          <span></span>
+          <p>Lines of Code</p>
+        </div>
+        <div
+          class="item wow fadeInUpBig animated animated"
+          data-number="2944"
+          style="visibility: visible;"
+        >
+          <i class="fa fa-coffee"></i>
+          <p id="number3" class="number">2944</p>
+          <span></span>
+          <p>Cups of coffee</p>
+        </div>
+        <div
+          class="item wow fadeInUpBig animated animated"
+          data-number="86"
+          style="visibility: visible;"
+        >
+          <i class="fa fa-github-alt" aria-hidden="true"></i>
+          <p id="number4" class="number">86</p>
+          <span></span>
+          <p>GitHub Gists</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="">
+  <div class="container">
+    <h2 class="pb-3 pt-2 border-bottom mb-5">Vertical Left-Right Timeline</h2>
+    <!--first section-->
+    <div class="row align-items-center how-it-works d-flex">
+      <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+        <div class="circle font-weight-bold">1</div>
+      </div>
+      <div class="col-6">
+        <h5>Fully Responsive</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+      </div>
+    </div>
+    <!--path between 1-2-->
+    <div class="row timeline">
+      <div class="col-2">
+        <div class="corner top-right"></div>
+      </div>
+      <div class="col-8">
+        <hr/>
+      </div>
+      <div class="col-2">
+        <div class="corner left-bottom"></div>
+      </div>
+    </div>
+    <!--second section-->
+    <div class="row align-items-center justify-content-end how-it-works d-flex">
+      <div class="col-6 text-right">
+        <h5>Using Bootstrap</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+      </div>
+      <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+        <div class="circle font-weight-bold">2</div>
+      </div>
+    </div>
+    <!--path between 2-3-->
+    <div class="row timeline">
+      <div class="col-2">
+        <div class="corner right-bottom"></div>
+      </div>
+      <div class="col-8">
+        <hr/>
+      </div>
+      <div class="col-2">
+        <div class="corner top-left"></div>
+      </div>
+    </div>
+    <!--third section-->
+    <div class="row align-items-center how-it-works d-flex">
+      <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+        <div class="circle font-weight-bold">3</div>
+      </div>
+      <div class="col-6">
+        <h5>Now with Pug and Sass</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+{% endblock %}
