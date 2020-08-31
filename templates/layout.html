@@ -56,7 +56,10 @@
       <h3 class="text-info text-center text-uppercase my-3">
         {% block header %}{% endblock %}
       </h3>
-      {% block content %}{% endblock %}
+
+{% block content %}{% endblock %}
+
+
       <!-- Footer starts here -->
       <footer class="footer row fixed-bottom">
         <div class="container mt-2">
@@ -67,8 +70,7 @@
                 <a class="text-white" href="http://www.alvisonhunter.com"
                   >Alvison Hunter</a
                 >
-                using Python and Flask.
-              </h6>
+                using Python & Flask. <strong class="text-warning"> {{ now.strftime("%B %d, %Y")}}</strong>
             </div>
           </div>
         </div>

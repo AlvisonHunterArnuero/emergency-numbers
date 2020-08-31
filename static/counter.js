@@ -26,7 +26,7 @@ $.fn.jQuerySimpleCounter = function (options) {
   );
 };
 
-$("#number1").jQuerySimpleCounter({ end: 13, duration: 3500 });
+$("#number1").jQuerySimpleCounter({ end: 30, duration: 1000 });
 $("#number2").jQuerySimpleCounter({ end: 5655, duration: 1500 });
 $("#number3").jQuerySimpleCounter({ end: 2944, duration: 2000 });
 $("#number4").jQuerySimpleCounter({ end: 86, duration: 2500 });

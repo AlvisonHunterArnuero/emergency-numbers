@@ -1,0 +1,10 @@
+Para activar el virtual environment use esto
+source bin/activate
+
+To start the app, lo que hago es escribir estos dos comandos
+Pero se puede hacer de varias formas, lo hago así para el hot reload
+
+FLASK_APP=app.py FLASK_ENV=development flask run
+
+Te va a abrir la app en la dirección similar a esta[un local host con el puerto 5000]:
+http://127.0.0.1:5000/

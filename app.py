@@ -1,6 +1,13 @@
 from flask import Flask, render_template
+from datetime import datetime
+
 app = Flask(__name__, static_url_path='/static', template_folder="templates")
-app.run(debug=True)
+app.run()
+
+@app.context_processor
+def inject_now():
+    return {'now': datetime.utcnow()}
+
 
 @app.route("/")
 @app.route("/home")
