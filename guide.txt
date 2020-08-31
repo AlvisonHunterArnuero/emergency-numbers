@@ -1,3 +1,5 @@
+This will be my readme file for the moment
+
 Para activar el virtual environment use esto
 source bin/activate
 

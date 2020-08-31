@@ -1,0 +1,4 @@
+###### Alvison Hunter's Starter Template for a Flask Web App ######
+###### Requirements without Version Specifiers, I used this ######
+flask
+boostrap
